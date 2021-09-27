@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "baseUrl": ".",
+    "paths": {
+      "^/*": ["src/*"],
+      "%/": ["src/Modules/*"],
+      ">/": ["src/Modules/Checkout/*"]
+    }
+  },
+  "exclude": [
+    ".tmp",
+    "assets/images",
+    "src/icons",
+    "node_modules",
+    "public",
+    "webpack",
+    "webpack-dev-server"
+  ]
+}

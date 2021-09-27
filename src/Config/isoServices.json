@@ -1,0 +1,32 @@
+{
+  "api": {
+    "ifc": "api"
+  },
+  "cart": {
+    "ifc": "cartStorage"
+  },
+  "checkout": {
+    "ifc": "checkout"
+  },
+  "currency": {
+    "ifc": "currency"
+  },
+  "customer": {
+    "ifc": "customer"
+  },
+  "history": {
+    "ifc": "history"
+  },
+  "messages": {
+    "ifc": "messages"
+  },
+  "order": {
+    "ifc": "order"
+  },
+  "routing": {
+    "ifc": "routing"
+  },
+  "utils": {
+    "ifc": "utils"
+  }
+}

@@ -1,0 +1,251 @@
+{
+  "Account": {
+    "title": "Your Account",
+    "addressBookTitle": "Address Book"
+  },
+  "AddressBookForm": {
+    "addressFields": "Address Details",
+    "firstName": "First name:",
+    "lastName": "Last name:",
+    "streetAddress1": "Street Address Line-1",
+    "streetAddress2": "Street Address Line-2",
+    "county": "County/Area",
+    "stateInCountry": "State",
+    "countryName": "Country"
+  },
+  "App": {
+    "fallback": "Loading Pages..."
+  },
+  "CardPrice": {
+    "ourPrice": "From: ${ourPrice}"
+  },
+  "CartButtons": {
+    "checkout": "Checkout"
+  },
+  "CartContents": {
+    "empty": "Your shopping cart is empty"
+  },
+  "CartHeader": {
+    "img": "Image",
+    "desc": "Description",
+    "qty": "Quantity",
+    "price": "Price"
+  },
+  "CartItem": {
+    "remove": "remove"
+  },
+  "Checkout": {
+    "title": "Checkout",
+    "fallback": "Loading shipping options...",
+    "shippingTitle": "Shipping Options",
+    "paymentTitle": "Payment Options",
+    "confirmationTitle": "Order Confirmation"
+  },
+  "CheckoutShipping": {
+    "next": "Continue"
+  },
+  "CreateAccount": {
+    "title": "Create Account",
+    "metaTags": {
+      "title": "Login to your account",
+      "meta": [
+        {
+          "attrs": {
+            "name": "description",
+            "content": "This is the customer login page"
+          }
+        }
+      ]
+    }
+  },
+  "CreateAccountForm": {
+    "specials": "Specials",
+    "mainFields": "Main Information (Required)",
+    "login": "Login",
+    "submit": "Submit",
+    "password": "Password:",
+    "passwordRetype": "Reype Password:",
+    "email": "Your email address:",
+    "emailRetype": "Retype your email address:",
+    "emailTip": "your-email@website.com",
+    "emailTipRetype": "retype your email",
+    "nickNameTip": "enter a nickname",
+    "nickName": "Nickname:",
+    "passwordTip": "your password",
+    "passwordHelpBlock": "Your password must be 8-20 characters long, contain letters and numbers, and must not contain spaces, special characters, or emoji.",
+    "errorNickName": "Provide a nickname, minimum 2 characters",
+    "errorPassword": "This password is not valid",
+    "errorEmail": "This email is not valid",
+    "errorEmailRetype": "Emails do not match",
+    "welcome":"Welcome, thank you for creating an account with us ${nickName}",
+    "demoShop":"Browse our store ${nickName}, see our recent best deals in our ${page} page",
+    "validatingCredentials":"Please wait for credentials validation",
+    "invalidCredentials":"Invalid Credentials entered",
+    "errorConnect":"Cannot connect to the server - Login Disabled"
+  },
+  "CreateAccountButtons": {
+    "submit": "Submit"
+  },
+  "Error": {
+    "title": "Error Page",
+    "description": "The page you're looking for could not be found. <br />Use our menu links to navigate to the list of our products"
+  },
+  "Footer": {
+    "demoShop": "Catalog demo of this e-shop",
+    "license": "- Made by MS (aka enigma1) - GNU/GPL License.",
+    "copyright": "Copyright &copy;2019-${year}",
+    "desc": "The content and graphics of this site are used for demonstration purposes."
+  },
+  "FormButtons": {
+    "cancel": "Cancel",
+    "continue": "Continue"
+  },
+  "Header": {
+    "home": "Home",
+    "newProducts": "New Products",
+    "specials": "Specials",
+    "brands": "Brands"
+  },
+  "HeaderCategories": {
+    "rootCategories": "Main Categories"
+  },
+  "HeaderTop": {
+    "title": "Demo Catalog - Shop Front End"
+  },
+  "Home": {
+    "newProducts": "New Products for ${currentMonth}",
+    "specialProducts": "Super Deals in ${currentMonth}"
+  },
+  "ListCategories": {
+    "root": {
+      "id": 0
+    }
+  },
+  "ListCategoryCard": {
+    "more": "Find out more"
+  },
+  "ListManufacturerCard": {
+    "products": "See products"
+  },
+  "ListManufacturers": {
+    "root": {
+      "id": 0,
+      "name": "Top Manufacturers",
+      "desc": "Best names in the Hi-Tech market for Computers, peripherals, accessories, cameras"
+    }
+  },
+  "ListProductCard": {
+    "buy": "Buy Now"
+  },
+  "Login": {
+    "title": "Customer Login",
+    "metaTags": {
+      "title": "Login to your account",
+      "meta": [
+        {
+          "attrs": {
+            "name": "description",
+            "content": "This is the customer login page"
+          }
+        }
+      ]
+    }
+  },
+  "LoginForm": {
+    "login": "Login",
+    "lastLogin": "Last logged on ${lastLogin}",
+    "password": "Password:",
+    "email": "Your email address:",
+    "emailTip": "your-email@website.com",
+    "passwordTip": "your password",
+    "passwordHelpBlock": "Your password must be 8-20 characters long, contain letters and numbers, and must not contain spaces, special characters, or emoji.",
+    "errorPassword": "This password is not valid",
+    "errorEmail": "This email is not valid",
+    "welcomeBack":"Welcome back ${nickName}",
+    "validatingCredentials":"Please wait for credentials validation",
+    "invalidCredentials":"Invalid Credentials entered",
+    "errorConnect":"Cannot connect to the server - Login Disabled"
+  },
+  "Logout": {
+    "title": "Thank you for using our store ${nickName}, goodbye"
+  },
+  "OfferPrice": {
+    "old": "Was: ${oldPrice}",
+    "offer": "Offer: ${offerPrice} with free shipping"
+  },
+  "ParentCategory": {
+    "root": {
+      "id": 0,
+      "name": "Top Categories in our stores",
+      "desc": "The best of Hi-Tech. Computers, peripherals, accessories, cameras for your day to day needs"
+    }
+  },
+  "ProductBuyForm": {
+    "options": "Additional Options",
+    "buy": "Buy Now",
+    "price": "Our Price",
+    "priceAttributes": "Starting Price From",
+    "errorAddingItem": "An error occured when attempting to add ${name} to the cart",
+    "addedToCart": "${name} added to the cart",
+    "notSelected": "${key} is not selected"
+  },
+  "ProductData": {
+    "features": "Features",
+    "sku": "SKU:",
+    "model": "Model:",
+    "tag": "Tag:",
+    "weight": "Weight:",
+    "dimensions": "Dimensions:",
+    "updated": "Updated:",
+    "separatorDim": "x",
+    "keySep": ": ",
+    "objectSpacer": ", "
+  },
+  "ProductDetails": {
+    "subTitle": "Description of ${name}"
+  },
+  "ProductInfo": {
+    "metaTags": {
+      "title": "${productName}",
+      "meta": [
+        {
+          "attrs": {
+            "name": "description",
+            "content": "${productDescription}"
+          }
+        }
+      ]
+    }
+  },
+  "ProductOption": {
+    "defaultChoice": "--Choose--"
+  },
+  "ProductQuantity": {
+    "title": "Quantity"
+  },
+  "SearchQuery": {
+    "emptyCriteria": "Keywords cannot be empty",
+    "emptyResult": "No products found. Refine your search or try different keywords",
+    "modalHeader": "Search in Products Help",
+    "modalDescription": "Search Products Names, fields and descriptions. Use the checkboxes to refine search criteria",
+    "modalButton": "OK",
+    "buttonGo": "GO",
+    "helpButton": "Search Help",
+    "helpHint": "Enter keywords here",
+    "productListEmpty": "There are no products",
+    "matchWords": "Match any of the words",
+    "searchDescriptions": "Search in descriptions",
+    "searchFields": "Search in product specialized fields"
+  },
+  "ShoppingCart": {
+    "title": "Your Shopping Cart"
+  },
+  "SpecialPrice":  {
+    "old": "Was: ${oldPrice}",
+    "now": "Special: ${specialPrice}"
+  },
+  "Specials": {
+    "title": "Super deals in ${currentMonth}",
+    "loading": "Loading Special Products"
+  }
+}

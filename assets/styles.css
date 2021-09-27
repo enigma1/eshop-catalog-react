@@ -1,0 +1,113 @@
+/*  Boostrap bug fix - set right padding to 0 except modal open */
+body:not(.modal-open) {
+  padding-right: 0px !important;
+}
+
+.icon32 {
+  width: 32px;
+  height: 32px;
+}
+
+.w-33 {
+  width: 33% !important;
+}
+
+.wh-100 {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.wh-auto {
+  width: auto !important;
+  height: auto !important;
+}
+
+.bg-heading {
+  background-color: #efeffc !important;
+}
+
+.bg-text {
+  background-color: #efefef !important;
+}
+
+
+.bg-buttons {
+  background-color: #d8d9da !important;
+}
+
+.text-heading {
+  color: #4f4f9c !important;
+}
+
+.text-description {
+  color: #1f1f1c !important;
+}
+
+.text-height-1 {
+  line-height: 1!important;
+}
+.text-height-1d5 {
+  line-height: 1.5!important;
+}
+.text-height-2 {
+  line-height: 2!important;
+}
+.text-height-2d5 {
+  line-height: 2.5!important;
+}
+.text-height-3 {
+  line-height: 3!important;
+}
+.text-height-3d5 {
+  line-height: 3.5!important;
+}
+
+select.no-select:focus option:first-of-type {
+  display: none;
+}
+
+.border-error {
+  border: 2px solid #CC0000;
+}
+
+fieldset legend {
+  font-size: 1.2rem !important;
+}
+
+.icon-enabled {
+  color: #004085;
+  background-color: #cce5ff;
+  border-color: #b8daff;
+  cursor: pointer;
+}
+
+a.icon-disabled {
+  pointer-events: none;
+  color: #6c757d;
+  background-color: #cce5ff;
+  border-color: #b8daff;
+  cursor: default;
+}
+
+img.cart-item {
+  width: 128px;
+  height: 128px;
+}
+
+img.list-category-card {
+  width: 128px;
+  height: 128px;
+}
+
+img.list-manufacturer-card {
+  width: 128px;
+  height: 128px;
+}
+
+legend.width-auto {
+  width: auto;
+  max-width: auto;
+  padding-left: 16px;
+  padding-right: 16px;
+  color: indigo;
+}

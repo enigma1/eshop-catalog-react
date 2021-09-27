@@ -1,0 +1,67 @@
+{
+  "routes": [
+    {
+      "path": "//",
+      "component": "Home",
+      "type": "exact"
+     },
+     {
+      "path": "/account",
+      "component": "Account",
+      "type": "exact"
+     },
+     {
+      "path": "/checkout",
+      "component": "Checkout",
+      "type": "exact"
+     },
+     {
+      "path": "/create-account",
+      "component": "CreateAccount",
+      "type": "exact"
+     },
+     {
+      "path": "/login",
+      "component": "Login",
+      "type": "exact"
+     },
+     {
+      "path": "/logout",
+      "component": "Logout",
+      "type": "exact"
+     },
+    {
+     "path": "/search",
+     "component": "Search",
+     "type": "exact"
+    },
+    {
+      "path": "/shopping-cart",
+      "component": "ShoppingCart",
+      "type": "exact"
+     },
+     {
+      "path": "/specials",
+      "component": "Specials",
+      "type": "exact"
+     },
+     {
+      "path": "/orders",
+      "component": "Orders",
+      "type": "exact"
+     },
+     {
+      "path": "/product-info",
+      "component": "ProductInfo"
+     },
+     {
+      "path": "/categories",
+      "component": "Categories"
+     },
+     {
+      "path": "/manufacturers",
+      "component": "Manufacturers"
+     },
+     {"path":"*", "component": "Error"}
+  ]
+}

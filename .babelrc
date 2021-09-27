@@ -1,0 +1,47 @@
+{
+    "presets": [
+      "@babel/preset-env",
+      "@babel/preset-react"
+    ],
+    "plugins": [
+      ["babel-plugin-root-import", {
+        "functions": [
+          "jest.mock",
+          "import",
+          "rootTransformed"
+        ],
+        "paths": [
+          {
+            "rootPathPrefix": "^/",
+            "rootPathSuffix": "src"
+          },
+          {
+            "rootPathPrefix": "!/",
+            "rootPathSuffix": "src/Services/ISO"
+          },
+          {
+            "rootPathPrefix": "?/",
+            "rootPathSuffix": "tests"
+          },
+          {
+            "rootPathPrefix": "~/",
+            "rootPathSuffix": "assets/images"
+          },
+          {
+            "rootPathPrefix": ">/",
+            "rootPathSuffix": "src/Modules/Checkout"
+          },
+          {
+            "rootPathPrefix": "%/",
+            "rootPathSuffix": "src/Modules"
+          }
+        ]
+      }],
+      "styled-components",
+      "@babel/plugin-syntax-jsx",
+      ["@babel/plugin-transform-runtime", { "regenerator": true }],
+      ["@babel/plugin-proposal-decorators", { "legacy": true }],
+      ["@babel/plugin-proposal-class-properties", { "loose" : true }],
+      ["@babel/plugin-transform-template-literals", {"loose": true }]
+    ]
+}
