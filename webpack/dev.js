@@ -10,13 +10,13 @@ const proxyServer = 'https://www.example.com:5443/';
 const dev = Object.assign({}, {
   devServer: {
     port: 8181,
-    contentBase: './public/development',
+    static: './public/development',
     host: 'www.example.com',
     hot: false,
     https: true,
     // Set this for rewrites and to enable js router access
     historyApiFallback: true,
-    disableHostCheck: true,
+    //disableHostCheck: true,
     headers: {
       "Access-Control-Allow-Origin": "*",
     },
@@ -48,7 +48,7 @@ const dev = Object.assign({}, {
     open: false,
   },
   mode: 'development',
-  devtool: '#source-map',
+  //devtool: '#source-map',
 }, common);
 
 module.exports = dev;

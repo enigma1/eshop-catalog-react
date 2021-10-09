@@ -30,6 +30,7 @@ const config = {
     }),
   ],
   resolve: {
+    fallback: { "buffer": false },
     modules: [path.join(__dirname, '..', 'src'), 'node_modules'],
     extensions: ['.es6', '.jsx', '.js'],
     alias: {

@@ -67,7 +67,7 @@ const ProductOption = ({service, name, optionName, optionHandler, optionRef, chi
   useEffect(() => {
     optionRef.current.setError = setError;
     return () => {
-      delete optionRef.current.setError;
+      optionRef.current && delete optionRef.current.setError;
     }
   },[]);
 

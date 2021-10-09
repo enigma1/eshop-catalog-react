@@ -33,3 +33,11 @@ Arbitrary Communication among components can be established with the standard re
 
 - Layout Configuration is retrieved from the back-end and stored in local storage during startup
 - Page Routing is ln the routing.json section
+
+#### Installation
+- npm i
+
+### Scripts
+- npm run serve - run in dev mode
+- npm run build - build in dev mode
+- npm run build:production - build for production
