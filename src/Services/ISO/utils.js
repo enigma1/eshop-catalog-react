@@ -117,24 +117,6 @@ const getLocationID = ({id}) => {
 }
 const splitUniqueID = (id, index=0, sep='*') => id.split(sep)[index];
 
-
-// const convertString = ({str, params}) => {
-//   const matchPattern=/\$\{(\w+)\}/g;
-//   const matches = str.matchAll(matchPattern);
-//   const segments = [];
-//   let offset=0;
-//   for (const match of matches) {
-//     segments.push(str.substr(offset, match.index))
-//     segments.push(params[match[1]])
-//     offset = match.index + match[0].length;
-//   }
-
-//   offset<str.length && segments.push(str.substr(offset));
-
-//   // console.log('-----', segments.join(""))
-//   return segments.join("");
-// }
-
 const convertStrings = (stringsArray, matchPattern=/\$\{(\w+)\}/g) => {
   if(!Array.isArray(stringsArray)) throw `Error: invalid data type on convertStrings got ${data}`;
 
@@ -153,13 +135,6 @@ const convertStrings = (stringsArray, matchPattern=/\$\{(\w+)\}/g) => {
   });
   return resultArray;
 }
-
-// const myFunc = () => '<a href="/specials">specials</a>';
-// const test = "Welcome back ${name1} to our basics this time ${name2} offers advanced tutorials enabling ${users} to succeed";
-// console.log('----->>', convertStrings([
-//   {str: test, params: {name1: 'moi', name2: 'toi', users: myFunc()}}
-// ] ));
-// throw 'stop';
 
 export default {
   getTokenName,

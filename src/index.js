@@ -3,9 +3,6 @@
 
 import './globals.js';
 import {Helmet} from "react-helmet";
-//import currency from '^/Services/currency';
-//import serverCache from '^/Services/serverCache';
-//import cartStorage from '^/Services/cartStorage';
 
 import {isoImporter} from '^/Services/storeContext';
 
@@ -38,11 +35,6 @@ const Startup = () => {
 }
 
 const Main = () => {
-  //isoImporter();
-  //currency.initialize();
-  //serverCache.initialize();
-  //cartStorage.initialize();
-
   if('serviceWorker' in navigator) {
     console.log('Notice: service-worker supported');
   }

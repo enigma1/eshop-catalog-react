@@ -64,10 +64,6 @@ const commonFetch = async (path, cache, sCache) => {
   const rq = new Request(fullPath, rqData);
   result = await process(rq, connectionError(path));
   return serverCache.insertDelayed(path, result);
-  // return await result.json();
-  // const result2 = await result.json();
-  // return result2;
-  //return result.json();
 }
 
 const uncachedFetch = async (cmd) => {
@@ -95,11 +91,9 @@ const checkConnect = async () => {
 }
 
 const commonPost = async(cmd, data) => {
-  //console.log('rq', cmd, data);
   const rqData = prepare('POST');
   const fullPath = `${backEnd.url}${cmd}`;
   rqData.body = JSON.stringify(data);
-  //console.log(rqData)
   const rq = new Request(fullPath, rqData);
   const result = await process(rq, connectionError(cmd), FIXED_CONNECTION_TIMEOUT);
   return await result.json();
@@ -110,12 +104,13 @@ const loginCustomer = (data) => commonPost('/login-customer', data);
 const createAccount = (data) => commonPost('/create-account', data);
 const createAddressBookEntry = (data) => commonPost('/create-address-book-entry', data);
 
-// Products API
+// Search and Checkout API
 const searchInProducts = (data) => commonPost('/search-in-products', data);
 const viewShipping = ({cmd, cache=true, sCache=false}) => commonFetch(`/shipping-views/?${cmd}`, cache, sCache);
 const viewPayment = ({cmd, cache=true, sCache=false}) => commonFetch(`/payment-views/?${cmd}`, cache, sCache);
 const viewTotal = ({cmd, cache=true, sCache=false}) => commonFetch(`/total-views/?${cmd}`, cache, sCache);
 
+// View Catalog entities API
 const viewManufacturers = ({cmd, cache=true, sCache=false}) => commonFetch(`/manufacturers-views/?${cmd}`, cache, sCache);
 const viewCategories = ({cmd, cache=true, sCache=false}) => commonFetch(`/categories-views/?${cmd}`, cache, sCache);
 const viewProducts = ({cmd, cache=true, sCache=false}) => commonFetch(`/products-views/?${cmd}`, cache, sCache);
